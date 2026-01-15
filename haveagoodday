@@ -62,7 +62,7 @@
 
     if (!selectedImage) {
       const randomNumber = Math.floor(Math.random() * totalImages) + 1;
-      selectedImage = `assets/img${randomNumber}.jpg`; // 이미지 경로
+      selectedImage = `assets/img${randomNumber}.jpeg`; // 이미지 경로
       sessionStorage.setItem("selectedImage", selectedImage);
     }
 
